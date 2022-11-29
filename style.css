@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body {
+    height: 100vh;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(204, 204, 204);
+    height: 90px;
+  }
+  .header__image {
+    height: 100%;
+    width: auto;
+    padding-left: 2.5rem;
+  }
+  .desktop__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .desktop__nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+  }
+  .desktop__nav a {
+    text-decoration: none;
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu__title {
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /*Contenedor tarjetas*/
+  .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  /*cards de menu y promociones*/
+  .cardsStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: rgba(235, 230, 230, 0.582);
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 10px rgb(41, 40, 40);
+  }
+  .cards:hover {
+    box-shadow: 5px 5px 20px rgb(39, 39, 39);
+  }
+  @media (min-width: 1080px) {
+    .cards {
+      margin-right: 3rem;
+    }
+  }
+  .cardsStyle .card__btn {
+    margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255); 
+    border-color: rgb(207, 207, 207); 
+
+    color: black;
+    cursor: pointer;
+  }
+  .card__title {
+    margin-top: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .card__precio {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .cardsStyle .cardImage {
+    width: 16rem;
+    margin-top: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .boton-eliminar {
+    padding: 2px;
+    border-radius: 0.5rem;
+  }
+
+  .precioProducto {
+    padding: 2px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+  }
+
+  .productoEnCarrito {
+    margin-top: 10px;       
+  }  
+
+  .btn_carrito {
+    padding: 2px;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .btn-disminuir-cantidad {
+    padding: 2px;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+
+  .btn-aumentar-cantidad {
+    padding: 2px;
+    border-radius: 0.5rem;
+    background-color: rgb(160, 192, 168);
+    font-size: 15px;
+  }
+  
+  #section__title {
+    display: flexbox;  
+    text-align: center;
+  }
+  .i .fa-solid fa-circle-xmark {
+    width: 1rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 107, 107);
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__text {
+    margin: 1rem;
+  }
+  .footer__credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__image{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;    
+    width: 140px;
+  }
+
+  .footer__ico{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+  }
+
+
+  p {
+    font-size: 0.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  img {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline;
+    width: 3rem;
+    text-align: center;
+  }
+
+/* Styling the open modal button */
+.modalbtn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ /* Styling the close modal button */
+ .closebtn {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ .closebtn:hover {
+  cursor: pointer;
+ }
+ /* Styling the modal container */
+ .modal {
+  display: none;
+ }
+ /* Styling the text inside the modal */
+ .modalcontent {
+  position: absolute;
+  font-size: 15px;
+  padding: 15px;
+  background-color: #c2c2c2;
+  border-radius: 0.5rem;  
+  width: 40%;
+  text-align: center;
+  margin: 30%;
+  margin-top: 10%;
+ }
