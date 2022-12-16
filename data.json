@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "imagen": "a13-negro-frente_3.png",
+      "name": "Galaxy A13 - 64GB",
+      "precio": 59990,
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "imagen": "g41-negro-frente_2.png",
+      "name": "Moto G41",
+      "precio": 49900,
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "imagen": "g52-negro-frente.png",
+      "name": "Moto G52",
+      "precio": 58990,
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "imagen": "a03-128-negro-frente_2.png",
+      "name": "Galaxy A03",
+      "precio": 41999,
+      "antidad": 1
+    },
+    
+    {
+      "id": 5,
+      "imagen": "a13-negro-frente_3.png",
+      "name": "Galaxy A13",
+      "precio": 59990,
+      "cantidad": 1
+    }
+    
+  ]
